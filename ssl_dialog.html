@@ -1,0 +1,20 @@
+<html>
+<body>
+<form id="f1">
+<table border=3>
+<tr><td>Password:</td><td><input type=password name=p id=p autofocus></td></tr>
+<tr><td colspan=2><textarea cols=80 rows=20 name=t id=t></textarea></td></tr>
+<tr><td colspan=2 align=right>
+<input type=button value='Encrypt' id="be"> 
+<input type=button value='Decrypt' id="bd">
+</td></tr>
+</table>
+</form>
+
+<!--( Decrypt manually: openssl enc -d -base64 -aes-256-cbc -k &lt;password&gt; ) -->
+
+<script src='ssl_dialog.js'></script>
+<script src='Gibberish-AES.js'></script>
+
+</body>
+</html>

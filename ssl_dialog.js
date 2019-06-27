@@ -47,7 +47,7 @@ function doCrypt()
 		if (line == '') continue;
 		if (line.length == 64 && line.indexOf(' ') == -1)
 			continue;
-		if (line.length < 64 && line.endsWith('='))
+		if (line.length < 64 && line.endsWith('=') && line.indexOf(' ') == -1)
 			continue;
 		f = enc;
 	}

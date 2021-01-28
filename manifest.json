@@ -3,7 +3,7 @@
   "name": "SSL",
   "version": "1.0",
   "description": "SSL 4 Chrome",
-  "permissions": ["tabs", "activeTab", "contextMenus"],
+  "permissions": ["activeTab"],
   "homepage_url": "https://github.com/osikov/SSL4Chrome/wiki/About",
   "options_page": "ssl_dialog.html",
   "browser_action": {
